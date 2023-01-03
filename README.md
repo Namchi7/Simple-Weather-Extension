@@ -24,5 +24,6 @@ It gives the following details:
 5. Click on "Load temporary Add-on..."
 6. Browse to the extracted zip location go to "weather-extension-firefox" and select the "manifest.json" file to import it (do not delete the folder afterwards).
 
-##Note
+##Note:
+
 This extension is made for educational and personal project purpose only. There will be no support for it in future.
