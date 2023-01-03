@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Simple Weather Extension</title>
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+
+    <div class="loading" id="loading"></div>
+    
+    <div class="container blurred" id="container">
+
+        <!-- Title of the Extension -->
+
+        <div class="title">
+            <p>Simple Weather Extension</p>
+        </div>
+
+        <!-- Current temperature information -->
+
+        <div class="tempInfo">
+            <div class="currentPack">
+                <div>Current: </div><div id="current">0&#xb0</div>
+            </div>
+            <hr />
+            <div class="highLow">
+                <div style="display: flex; justify-content: space-between;">
+                    <div>High: </div><div id="high">0&#xb0</div>
+                </div>
+                <hr/>
+                <div style="display: flex; justify-content: space-between;">
+                    <div>Low: </div><div id="low">0&#xb0</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Forecast for next 7 days -->
+
+        <div class="forecast" id="forecast">
+            <div>
+                <div class="dates">Day1</div>
+                <div class="forecastHighLow">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&uarr;</div><div id="forecastHigh">0&#xb0</div>
+                    </div>
+                    <hr/>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&darr; </div><div id="forecastLow">0&#xb0</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dates">Day2</div>
+                <div class="forecastHighLow">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&uarr;</div><div id="forecastHigh">0&#xb0</div>
+                    </div>
+                    <hr/>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&darr; </div><div id="forecastLow">0&#xb0</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dates">Day3</div>
+                <div class="forecastHighLow">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&uarr;</div><div id="forecastHigh">0&#xb0</div>
+                    </div>
+                    <hr/>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&darr; </div><div id="forecastLow">0&#xb0</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dates">Day4</div>
+                <div class="forecastHighLow">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&uarr;</div><div id="forecastHigh">0&#xb0</div>
+                    </div>
+                    <hr/>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&darr; </div><div id="forecastLow">0&#xb0</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dates">Day5</div>
+                <div class="forecastHighLow">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&uarr;</div><div id="forecastHigh">0&#xb0</div>
+                    </div>
+                    <hr/>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&darr; </div><div id="forecastLow">0&#xb0</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dates">Day6</div>
+                <div class="forecastHighLow">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&uarr;</div><div id="forecastHigh">0&#xb0</div>
+                    </div>
+                    <hr/>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&darr; </div><div id="forecastLow">0&#xb0</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dates">Day7</div>
+                <div class="forecastHighLow">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&uarr;</div><div id="forecastHigh">0&#xb0</div>
+                    </div>
+                    <hr/>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>&darr; </div><div id="forecastLow">0&#xb0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
